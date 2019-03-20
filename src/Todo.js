@@ -1,6 +1,7 @@
-import React from 'react';
+import React, { Component } from 'react';
 import './Todo.css';
 
-const Todo = () => <div className="Todo">I am an Item</div>;
+const Todo = props => <div className="Todo">{props.description}</div>;
+
 
 export default Todo;

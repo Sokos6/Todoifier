@@ -6,8 +6,8 @@ const App = () => (
   <div className="App">
     <h2>Todoifier</h2>
     <br />
-    <Todo />
-    <Todo />
+    <Todo description="Do the thing" />
+    <Todo description="Do another thing" />
   </div>
 );
 
